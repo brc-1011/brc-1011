@@ -12,23 +12,23 @@ It provides mechanisms for individuals and organizations to create semantically 
 
 Leveraging the unique capabilities of Bitcoin Ordinals, BRC-1011 aims to standardize and streamline the process of embedding valuable data directly onto the Bitcoin blockchain, inheriting the same security and ownership properties as Bitcoin itself. This approach ensures that each piece of data is not only immutable and secure but also uniquely identifiable.
 
-By harnessing the power of DIDs BRC-1011 brings a new level of integrity and authenticity to digital assets fostering a new era of digital innovation and trust.
+By harnessing the power of DIDs and VCs BRC-1011 brings a new level of integrity and authenticity to digital assets fostering a new era of digital innovation and trust.
 
 ## Key Features
 
 ### Bitcoin Ordinal Theory and Inscriptions
 
-1. **Fundamental Concept of Ordinal Theory**: Ordinal Theory is a novel approach to distinguish and value individual satoshis, the smallest unit of Bitcoin. Each satoshi is given a unique identifier or ordinal number, which is determined based on the order of its creation (i.e., when it was mined). This numbering creates a sequence that uniquely identifies every satoshi in existence.
+1. **Fundamental Concept of Ordinal Theory**: Ordinal Theory is a novel approach to distinguish and value individual satoshis, the smallest unit of Bitcoin. Each satoshi is given a unique identifier (ordinal number), which is determined based on the order of its creation (i.e., when it was mined). This numbering creates a sequence that uniquely identifies every satoshi in existence.
 
-2. **Inscription Process**: Inscriptions in BRC-1011 leverage this unique identification system. They involve embedding data directly onto individual satoshis. This can range from simple text or numbers to more complex data like images or digital signatures. Inscriptions are immutable once added, inheriting Bitcoin's robust security and immutability.
+2. **Inscription Process**: Inscriptions in BRC-1011 leverage this unique identification system. They involve embedding data directly onto individual satoshis. This can range from simple text or numbers to more complex data like images or html documents. Inscriptions are immutable once added, inheriting Bitcoin's robust security and immutability.
 
 3. **Uniqueness and Rarity**: The ordinal number of each satoshi can confer a sense of rarity or uniqueness, especially for satoshis mined during significant events or early in Bitcoin's history. This aspect can be particularly appealing in the context of digital collectibles and non-fungible tokens (NFTs).
 
-4. **Verifiability and Transparency**: Given that these inscriptions are recorded on the Bitcoin blockchain, they benefit from the inherent transparency and verifiability of blockchain technology. Anyone can verify the authenticity and originality of the inscribed data, making it a reliable method of data validation.
+4. **Transparency and Immutability**: Given that these inscriptions are recorded on the Bitcoin blockchain, they benefit from the inherent transparency and immutability of blockchain technology. Anyone can verify the authenticity and originality of the inscribed data, making it a reliable method of data validation.
 
-5. **Integration with Verifiable Credentials**: By combining Bitcoin Ordinal Theory with Verifiable Credentials, BRC-1011 can potentially revolutionize how digital assets are issued and verified. Credentials can be inscribed onto satoshis, ensuring they are tamper-proof and easily verifiable across decentralized networks.
+5. **Integration with Verifiable Credentials**: By combining Bitcoin Ordinal Theory with Verifiable Credentials, BRC-1011 can potentially revolutionize how digital assets are issued and verified. VCs can be inscribed onto satoshis, ensuring they are tamper-proof and easily verifiable.
 
-6. **Implications for Digital Identity**: This integration can have significant implications for digital identity, allowing for secure and immutable recording of identity attributes directly on the Bitcoin blockchain. This approach can enhance the security and integrity of digital identity systems.
+6. **Implications for Digital Identity**: This integration can have significant implications for digital identity, allowing for secure and immutable recording of public keys and service endpoints directly on the Bitcoin blockchain. This approach is a monumental shift towards the decentralization of digital identity infrastructure.
 
 ### Verifiable Credentials (VCs)
 
@@ -84,7 +84,7 @@ BRC-1011's use of JSON-LD (JSON for Linked Data) marks a strategic approach in h
 
 6. **Scalability and Performance**: Given JSON-LD's lightweight nature, it contributes positively to the scalability and performance of applications built on BRC-1011. This ensures that applications remain efficient even as they handle complex and extensive datasets.
 
-8. **Future-Proofing Data Representation**: JSON-LD's flexibility and extensibility make it a future-proof choice for data representation. As new requirements and technologies emerge, JSON-LD can adapt and evolve, ensuring that BRC-1011 remains relevant and effective.
+7. **Future-Proofing Data Representation**: JSON-LD's flexibility and extensibility make it a future-proof choice for data representation. As new requirements and technologies emerge, JSON-LD can adapt and evolve, ensuring that BRC-1011 remains relevant and effective.
 
 
 ## Use Cases
@@ -110,30 +110,3 @@ The BRC-1011 framework, with its integration of Bitcoin Ordinals, Verifiable Cre
 
 - **Event Ticketing**: Employ VCs to create digital access passes for events, ensuring each ticket is unique and verifiable. This can significantly reduce fraud and scalping, providing a more secure and efficient entry process.
 - **Membership Verification**: Use DIDs to manage memberships for online platforms or communities, offering a seamless verification process that respects user privacy and data sovereignty.
-
-## How it Compares to Other Standards
-
-BRC-1011 introduces a novel framework leveraging Bitcoin Ordinals for verifiable data and decentralized identities, such as through the `did:btco` method. Here's how it stacks up against other standards:
-
-### Compared to BRC-420
-
-BRC-420 focuses on digital asset management within metaverses, allowing creators to manage, share, and monetize creations through licensing and royalties. It emphasizes complex digital assets like game items and animations, particularly in gaming platforms and the metaverse.
-
-**Key Differences**:
-- **Focus Area**: BRC-420 targets metaverse assets and gaming, whereas BRC-1011 offers a broader application in secure, verifiable data inscriptions and decentralized identities on the Bitcoin blockchain while also enabling metaverse assets.
-- **Creator Economy**: BRC-420 creates a new revenue model for creators in virtual spaces through royalties, contrasting BRC-1011's emphasis on data verifiability and identity security.
-
-### Compared to "Winging It"
-
-**Key Differences**:
-- **Standardization and Security**: BRC-1011 formalizes data inscriptions and identities on the blockchain, offering a secure, standardized approach compared to the ad-hoc nature of "winging it."
-
-### Compared to BRC-333
-
-BRC-333 is a recursive pixelation protocol for Ordinals collections, introducing a method for creating pixelated art and collectibles on the Bitcoin blockchain.
-
-**Key Differences**:
-- **Specificity in Use Case**: BRC-333 is specific to creating pixelated art on the blockchain, showcasing a niche application. In contrast, BRC-1011 has wider implications for digital identity and data integrity across various sectors.
-- **Technical Approach**: While BRC-333 focuses on a creative expression through pixelation, BRC-1011 emphasizes the secure and verifiable exchange of data and identities, utilizing decentralized identifiers and verifiable credentials.
-
-In summary, BRC-1011's unique contribution lies in its broad applicability, innovation in decentralized identity, and focus on enhancing data integrity and verifiability on the Bitcoin blockchain. This contrasts with BRC-420's metaverse asset management, the informal and variable practices of "winging it," and BRC-333's specialized art creation protocol.
