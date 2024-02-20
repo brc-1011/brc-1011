@@ -1,0 +1,7 @@
+{
+  "specs": [{
+    "title": "BRC-1011",
+    "spec_directory": "./spec",
+    "output_path": "./dist"
+  }]
+}
